@@ -14,7 +14,6 @@ body{
     background-repeat:no-repeat;
     background-position: 0% 30%;
     font-family:poppins,arial;
-    height:100vh;
 }
 /*start global*/
 .container{
@@ -93,7 +92,7 @@ main{
 /*end main*/
 /*start footer*/
 footer{
-    padding-bottom:20px;
+    width:100%;
 }
 .footer-content{
     display:flex;
