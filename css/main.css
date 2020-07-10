@@ -17,21 +17,20 @@ body{
 }
 /*start global*/
 .container{
-    width:80%;
+    width:90%;
     margin:auto;
 }
 /*end global*/
 /*start header*/
 header{
-    padding:30px 0;
-    margin-bottom:50px;
+    padding:80px 0;
 }
 .header-content{
     display:flex;
     justify-content:flex-start;
 }
 .image img{
-    width:190px;
+    width:240px;
 }
 /*end header*/
 /*start main*/
@@ -61,7 +60,7 @@ main{
     margin-bottom:30px;
     line-height:1.6;
     letter-spacing:2px;
-    
+    font-size:40px;
 }
 .right p{
     font-family:arial;
@@ -105,13 +104,15 @@ footer{
 }
 .social img:first-of-type{
     width:32px;
-    padding:10px 10px;
+    padding:10px;
     cursor:pointer;
 }
 .social img{
     width:37px;
     padding:5px 10px;
     cursor:pointer;
+    border:1px solid #fff;
+    border-radius:50%;
 }
 /*end footer*/
 /*start media*/
