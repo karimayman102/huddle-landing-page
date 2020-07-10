@@ -112,6 +112,10 @@ footer{
     width:37px;
     border:1px solid #fff;
     border-radius:60%;
+    -webkit-border-radius:60%;
+    -moz-border-radius:60%;
+    -ms-border-radius:60%;
+    -o-border-radius:60%;
     padding:5px 10px;
     cursor:pointer;
 }
@@ -129,30 +133,7 @@ footer{
         width:170px;
     }
 }
-@media(min-width:768px) and (max-width:991px){
-    .right h1{
-        font-size:20px;
-        margin-bottom:10px;
-    }
-    .right p{
-        font-size:16px;
-    }
-    .right button{
-        width:150px;
-        font-size:15px;
-        padding:15px 0;
-    }
-    .right{
-        padding:0;
-    }
-    main{
-        margin-bottom:60px;
-    }
-    .left{
-        margin-top:10px;
-    }
-}
-@media(max-width:767px){
+@media(max-width:991px){
     .right h1{
         font-size:20px;
         margin-bottom:10px;
